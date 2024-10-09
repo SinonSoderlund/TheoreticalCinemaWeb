@@ -1,0 +1,54 @@
+body
+{
+    background-color: rgb(3, 4, 5);
+    color: blanchedalmond;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+body > *
+{
+    max-width: 600px
+}
+
+a
+{
+    color: blanchedalmond;
+    background-color: hsla(36, 100%, 90%, 0.267);
+    text-decoration: none;
+}
+
+.linkList > li
+{
+    display: inline-flex;
+    justify-content:space-evenly;
+
+}
+
+.linkList
+{
+    margin-right: 15%;
+}
+
+.linkSection
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer
+{
+    height: 50px;
+    background-color:rgba(146, 43, 155, 0.055);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 4px solid rgba(146, 43, 155, 0.055);
+    border-radius: 40%;
+}
